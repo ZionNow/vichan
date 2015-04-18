@@ -20,4 +20,11 @@
 	//$config['root']				= '/';
 	
 	
+	//.webm settings
+	//Might need additions for FFmpeg
+	$config['allowed_ext_files'][] = 'webm';
+	$config['additional_javascript'][] = 'js/webm-settings.js';
+	$config['additional_javascript'][] = 'js/expand-video.js';
+	
+	
 ?>
